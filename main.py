@@ -2,7 +2,7 @@ from PyQt6.QtGui import QPixmap
 from PyQt6.QtWidgets import QFileDialog, QGraphicsScene, QMessageBox
 from PyQt6.QtWidgets import QMainWindow, QApplication
 from qt_material import apply_stylesheet
-from CycleGAN_NCNN_Widget import Ui_Form
+from ui.CycleGAN_NCNN_Widget import Ui_Form
 
 import numpy as np
 import torch
